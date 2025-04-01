@@ -1,6 +1,6 @@
 > author: JinZ
 # 使用前须知
-- 本项目为搬运并部分修改GIT项目git@github.com:fanmcgrady/SCU-Thesis-LaTeX-Template.git
+- 本项目为搬运并部分修改GIT项目git@github.com:fanmcgrady/SCU-Thesis-LaTeX-Template.git，适用于四川大学本科电气工程学院毕业设计
 - 本项目私人使用，如有商用请尊重版权，向原项目作者申请
 - 请大家点点五角星 感谢！
 
