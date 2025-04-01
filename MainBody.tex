@@ -1,0 +1,44 @@
+\documentclass{./Template/scuthesis}
+\usepackage{fancyvrb}
+\usepackage{xcolor}
+\usepackage{dirtree}
+\usepackage{textcomp}
+\renewcommand*{\DTstylecomment}{\color{blue}\kaishu}
+\usepackage{supertabular}
+\usepackage{makecell}
+\usepackage{ltxtable}
+\usepackage[sort&compress]{gbt7714}
+\bibliographystyle{gbt7714-numerical}
+
+\begin{document}
+    \thesisname{本科毕业论文（设计）}
+    \universityname{四川大学}
+    \title{四川大学本科毕业设计\LaTeX模板}
+    \ENGtitle{SCU \LaTeX format}
+    \CoverTitle{四川大学本科毕业设计\LaTeX模板}    
+    \author{路人乙}
+    \ENGauthor{Jinzhong Hong}
+    \accomplishdate{2025年5月}
+    \school{电气工程学院}
+    \supervisor{路人{\quad}甲}
+    \ENGsupervisor{Prof. Haiyan Tu}
+    \major{自动化}
+    \ENGmajor{Automated Systems Engineering}
+    \schoolID{202111111}
+    \grade{2021}
+
+    \keywords{四川大学，本科毕业设计，电气工程学院，\LaTeX}   
+    \ENGkeywords{\SCU, \LaTeX}
+\maketitle
+\frontmatter\pagenumbering{Roman}\pagestyle{fancy}\makechaptertitlecenter
+% 摘要
+\include{Chapter/0_0_Abstract}
+
+
+% 设置论文正文部分的页码、页眉等
+\mainmatter\pagenumbering{arabic}\pagestyle{fancy}\makechaptertitleleft
+%第一章
+\include{Chapter/1_Introduction}
+
+
+\end{document}
